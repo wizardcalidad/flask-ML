@@ -18,8 +18,8 @@ models = {
         "count": joblib.load("models/categorical_naive_bayes_with_count_vectorizer.joblib"),
     },
     "complement": {
-        "count": joblib.load("models/complement_naive_bayes_with_count_vectorizer.joblib"),
-        "tfidf": joblib.load("models/complement_naive_bayes_with_tfidf_vectorizer.joblib"),
+        "count": joblib.load("models/complement_imdb_naive_bayes_with_count_vectorizer.joblib"),
+        "tfidf": joblib.load("models/complement_imdb_naive_bayes_with_tfidf_vectorizer.joblib"),
     },
     "gaussian": {
         "count": joblib.load("models/gaussian_naive_bayes_with_count_vectorizer.joblib"),
