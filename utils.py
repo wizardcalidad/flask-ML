@@ -4,12 +4,14 @@ from sklearn.base import TransformerMixin
 import numpy as np
 
 import nltk
+
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt')
 
 wordnet_lemmatizer = WordNetLemmatizer()
 
